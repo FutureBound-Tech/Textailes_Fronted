@@ -178,7 +178,7 @@ const ProductUploadForm = ({ initialData = {} }) => {
         className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2 text-white shadow-sm hover:bg-indigo-700"
         disabled={status === 'loading'}
       >
-        {status === 'loading' ? 'Uploading…' : 'Upload product'}
+        {status === 'loading' ? 'Uploading...' : 'Upload product'}
       </button>
       {error && <p className="text-sm text-rose-600">{error}</p>}
     </form>

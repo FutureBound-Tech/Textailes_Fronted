@@ -56,7 +56,7 @@ const Login = () => {
           className="w-full rounded-lg bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-700"
           disabled={status === 'loading'}
         >
-          {status === 'loading' ? 'Signing in…' : 'Sign in'}
+          {status === 'loading' ? 'Signing in...' : 'Sign in'}
         </button>
         {error && <p className="text-sm text-rose-600">{error}</p>}
       </form>

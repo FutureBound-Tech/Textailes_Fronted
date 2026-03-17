@@ -55,7 +55,7 @@ const AIProductUpload = () => {
           disabled={loading || !productText}
           className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 disabled:opacity-60"
         >
-          {loading ? 'Extracting…' : '?? Extract with AI'}
+          {loading ? 'Extracting...' : 'Extract with AI'}
         </button>
       </div>
       <div className="grid gap-3 md:grid-cols-[2fr_1fr]">
